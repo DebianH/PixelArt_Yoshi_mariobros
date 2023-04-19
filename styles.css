@@ -1,0 +1,872 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+:root {
+  --color-One: #000;
+  --color-Two: rgb(239, 83, 11);
+  --color-Three: rgb(255, 181, 9);
+  --color-TFour: #fff;
+  --color-Five: rgb(74, 239, 8);
+  --color-Six: rgb(44, 154, 0);
+}
+html {
+  background: #9290ff;
+}
+h1,
+h5 {
+  font-family: "Press Start 2P", cursive;
+  text-transform: uppercase;
+  text-align: center;
+}
+.contentYoshi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+.conten_1 {
+  display: flex;
+  justify-content: center;
+}
+.smallBloq {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #131313;
+  border: transparent;
+}
+
+.conten_1 :nth-child(n) {
+  background: var(--color-One);
+}
+/* Nivel 2 */
+.conten_2,
+.conten_3,
+.conten_4,
+.conten_5 {
+  display: flex;
+  justify-content: center;
+}
+.conten_2 :nth-child(n) {
+  background: var(--color-Two);
+}
+.conten_2 :nth-child(9n + 5) {
+  background: var(--color-Three);
+}
+.conten_2 :nth-child(7n + 1) {
+  background: var(--color-One);
+}
+.conten_2 :nth-child(6) {
+  background: var(--color-Three);
+}
+.conten_2 :nth-child(7) {
+  background: var(--color-Three);
+}
+/* Nivel 3 */
+.conten_3 :nth-child(n) {
+  background: var(--color-Two);
+}
+.conten_3 :nth-child(9n + 5) {
+  background: var(--color-Three);
+}
+.conten_3 :nth-child(7n + 1) {
+  background: var(--color-One);
+}
+.conten_3 :nth-child(6) {
+  background: var(--color-Three);
+}
+.conten_3 :nth-child(7) {
+  background: var(--color-Three);
+}
+/* Nivel 4 */
+.conten_4 :nth-child(n) {
+  background: var(--color-Two);
+}
+.conten_4 :nth-child(8n + 6) {
+  background: var(--color-TFour);
+}
+.conten_4 :nth-child(7n + 1) {
+  background: var(--color-One);
+}
+
+.conten_4 :nth-child(7) {
+  background: var(--color-Three);
+}
+/* Nivel 5 */
+.conten_5 :nth-child(n) {
+  background: var(--color-One);
+}
+.conten_5 :nth-child(5n + 4) {
+  background: var(--color-Three);
+}
+.conten_5 :nth-child(3) {
+  background: var(--color-Two);
+}
+.conten_5 :nth-child(2) {
+  background: var(--color-Two);
+}
+.conten_5 :nth-child(5) {
+  background: var(--color-Three);
+}
+/* Nivel 6 */
+.conten_6 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -10px;
+}
+.conten_6 :nth-child(n) {
+  background: var(--color-One);
+}
+.conten_6 :nth-last-child(4) {
+  background: var(--color-TFour);
+}
+.conten_6 :nth-last-child(5) {
+  background: var(--color-TFour);
+}
+.conten_6 :nth-child(2) {
+  background: var(--color-Two);
+}
+.conten_6 :nth-child(3) {
+  background: var(--color-Two);
+}
+.conten_6 :nth-child(4) {
+  background: var(--color-Three);
+}
+.conten_6 :nth-child(5) {
+  background: var(--color-Three);
+}
+/* Nivel 7 */
+.conten_7 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -5px;
+}
+.conten_7 :nth-child(n) {
+  background: var(--color-TFour);
+}
+.conten_7 :nth-last-child(n + 6) {
+  background: var(--color-One);
+}
+.conten_7 :nth-last-child(1) {
+  background: var(--color-One);
+}
+/* Nivel 8 */
+.conten_8 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -5px;
+}
+.conten_8 :nth-child(5n + 4) {
+  background: var(--color-One);
+}
+.conten_8 :nth-child(1) {
+  background: var(--color-One);
+}
+.conten_8 :nth-child(6) {
+  background: var(--color-Five);
+}
+.conten_8 :nth-child(7) {
+  background: var(--color-Five);
+}
+.conten_8 :nth-child(8) {
+  background: var(--color-Five);
+}
+.conten_8 :nth-child(5) {
+  background: var(--color-Six);
+}
+.conten_8 :nth-last-child(10n + 2) {
+  background: var(--color-TFour);
+}
+.conten_8 :nth-last-child(10n + 3) {
+  background: var(--color-TFour);
+}
+.conten_8 :nth-last-child(4) {
+  background: var(--color-TFour);
+}
+.conten_8 :nth-last-child(5) {
+  background: var(--color-TFour);
+}
+/* Nivel 9 */
+.conten_9 {
+  display: flex;
+  justify-content: center;
+}
+.conten_9 :nth-child(n) {
+  background: var(--color-One);
+}
+.conten_9 :nth-child(n + 5) {
+  background: var(--color-Five);
+}
+.conten_9 :nth-child(n + 10) {
+  background: var(--color-TFour);
+}
+.conten_9 :nth-child(2) {
+  background: var(--color-TFour);
+}
+.conten_9 :nth-child(4) {
+  background: var(--color-Six);
+}
+.conten_9 :nth-child(5n + 10) {
+  background: var(--color-One);
+}
+/* Nivel 10 */
+.conten_10 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -5px;
+}
+.conten_10 :nth-child(10n + 1) {
+  background: var(--color-One);
+}
+.conten_10 :nth-last-child(12n + 1) {
+  background: var(--color-One);
+}
+.conten_10 :nth-child(5) {
+  background: var(--color-Five);
+}
+.conten_10 :nth-child(6) {
+  background: var(--color-Five);
+}
+.conten_10 :nth-child(7) {
+  background: var(--color-Five);
+}
+.conten_10 :nth-last-child(7) {
+  background: var(--color-One);
+}
+.conten_10 :nth-last-child(12n + 2) {
+  background: var(--color-TFour);
+}
+.conten_10 :nth-last-child(12n + 3) {
+  background: var(--color-TFour);
+}
+.conten_10 :nth-child(5n + 8) {
+  background: var(--color-TFour);
+}
+.conten_10 :nth-child(3n + 9) {
+  background: var(--color-TFour);
+}
+/* Nivel 11 */
+.conten_11,
+.conten_12,
+.conten_13 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 30px;
+}
+.conten_11 :nth-child(10n + 1) {
+  background: var(--color-One);
+}
+.conten_11 :nth-last-child(12n + 1) {
+  background: var(--color-One);
+}
+.conten_11 :nth-child(5) {
+  background: var(--color-Five);
+}
+.conten_11 :nth-child(6) {
+  background: var(--color-Five);
+}
+.conten_11 :nth-child(7) {
+  background: var(--color-Five);
+}
+.conten_11 :nth-child(3) {
+  background: var(--color-Six);
+}
+.conten_11 :nth-child(n + 16) {
+  background: var(--color-One);
+}
+.conten_11 :nth-child(6n + 17) {
+  background: #9290ff;
+}
+.conten_11 :nth-child(4) {
+  background: var(--color-One);
+}
+.conten_11 :nth-child(13n + 2) {
+  background: var(--color-TFour);
+}
+.conten_11 :nth-child(8) {
+  background: var(--color-TFour);
+}
+.conten_11 :nth-child(8) {
+  background: var(--color-TFour);
+}
+.conten_11 :nth-child(9) {
+  background: var(--color-TFour);
+}
+.conten_11 :nth-child(10) {
+  background: var(--color-TFour);
+}
+.conten_11 :nth-child(12) {
+  background: var(--color-TFour);
+}
+.conten_11 :nth-child(13) {
+  background: var(--color-TFour);
+}
+.conten_11 :nth-child(14) {
+  background: var(--color-TFour);
+}
+
+/* Nivel 12 */
+.conten_12 :nth-child(n + 2) {
+  background: var(--color-Five);
+}
+.conten_12 :nth-child(n + 11) {
+  background: var(--color-TFour);
+}
+.conten_12 :nth-child(n + 16) {
+  background: var(--color-One);
+}
+.conten_12 :nth-child(1) {
+  background: var(--color-One);
+}
+.conten_12 :nth-child(4) {
+  background: var(--color-One);
+}
+.conten_12 :nth-child(5) {
+  background: var(--color-One);
+}
+.conten_12 :nth-child(10) {
+  background: var(--color-One);
+}
+.conten_12 :nth-last-child(2) {
+  background: var(--color-Six);
+}
+.conten_12 :nth-last-child(3) {
+  background: var(--color-Five);
+}
+.conten_12 :nth-last-child(4) {
+  background: var(--color-Five);
+}
+/* Nivel 13 */
+.conten_13 :nth-child(n) {
+  background: var(--color-One);
+}
+.conten_13 :nth-child(n + 7) {
+  background: var(--color-Five);
+}
+.conten_13 :nth-child(n + 12) {
+  background: var(--color-TFour);
+}
+.conten_13 :nth-child(n + 16) {
+  background: var(--color-One);
+}
+.conten_13 :nth-child(n + 20) {
+  background: var(--color-Five);
+}
+.conten_13 :nth-last-child(1) {
+  background: var(--color-One);
+}
+.conten_13 :nth-last-child(14n + 6) {
+  background: var(--color-TFour);
+}
+/* Nivel 14 */
+.conten_14 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 40px;
+}
+.conten_14 :nth-last-child(n) {
+  background: var(--color-One);
+}
+.conten_14 :nth-child(n + 11) {
+  background: var(--color-TFour);
+}
+.conten_14 :nth-child(n + 14) {
+  background: var(--color-One);
+}
+.conten_14 :nth-last-child(2) {
+  background: var(--color-Five);
+}
+.conten_14 :nth-last-child(3) {
+  background: var(--color-Five);
+}
+.conten_14 :nth-last-child(5) {
+  background: var(--color-Five);
+}
+.conten_14 :nth-last-child(12) {
+  background: var(--color-Six);
+}
+.conten_14 :nth-child(3) {
+  background: var(--color-Two);
+}
+.conten_14 :nth-child(4) {
+  background: var(--color-Two);
+}
+/* Nivel15 */
+.conten_15 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 50px;
+}
+.conten_15 :nth-last-child(n) {
+  background: var(--color-One);
+}
+.conten_15 :nth-child(n + 9) {
+  background: var(--color-TFour);
+}
+.conten_15 :nth-child(n + 12) {
+  background: var(--color-One);
+}
+.conten_15 :nth-child(10n + 3) {
+  background: var(--color-TFour);
+}
+.conten_15 :nth-child(10n + 3) {
+  background: var(--color-TFour);
+}
+.conten_15 :nth-last-child(2) {
+  background: var(--color-Five);
+}
+.conten_15 :nth-last-child(5) {
+  background: var(--color-Five);
+}
+
+.conten_15 :nth-child(2) {
+  background: var(--color-Two);
+}
+.conten_15 :nth-child(8) {
+  background: var(--color-Six);
+}
+/* Nivel 16 */
+.conten_16 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 55px;
+}
+.conten_16 :nth-last-child(n) {
+  background: var(--color-One);
+}
+.conten_16 :nth-child(n + 8) {
+  background: var(--color-TFour);
+}
+.conten_16 :nth-child(n + 11) {
+  background: var(--color-One);
+}
+.conten_16 :nth-last-child(3) {
+  background: var(--color-TFour);
+}
+.conten_16 :nth-last-child(2) {
+  background: var(--color-Five);
+}
+.conten_16 :nth-child(6) {
+  background: var(--color-Two);
+}
+/* Nivel 17 */
+.conten_17 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 70px;
+}
+.conten_17 :nth-last-child(n) {
+  background: var(--color-One);
+}
+.conten_17 :nth-child(n + 5) {
+  background: var(--color-TFour);
+}
+.conten_17 :nth-child(n + 9) {
+  background: var(--color-Six);
+}
+.conten_17 :nth-last-child(1) {
+  background: var(--color-One);
+}
+.conten_17 :nth-child(5n + 9) {
+  background: var(--color-One);
+}
+.conten_17 :nth-child(4) {
+  background: var(--color-Six);
+}
+.conten_17 :nth-child(5) {
+  background: var(--color-Five);
+}
+
+/* Nivel 18 */
+.conten_18 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 75px;
+}
+.conten_18 :nth-last-child(n) {
+  background: var(--color-One);
+}
+.conten_18 :nth-child(8n + 4) {
+  background: var(--color-Six);
+}
+.conten_18 :nth-child(8n + 5) {
+  background: var(--color-Five);
+}
+.conten_18 :nth-child(2) {
+  background: var(--color-Two);
+}
+.conten_18 :nth-child(6) {
+  background: var(--color-TFour);
+}
+.conten_18 :nth-child(7) {
+  background: var(--color-TFour);
+}
+.conten_18 :nth-child(9) {
+  background: var(--color-Six);
+}
+.conten_18 :nth-child(10) {
+  background: var(--color-Six);
+}
+.conten_18 :nth-child(11) {
+  background: var(--color-Six);
+}
+.conten_18 :nth-last-child(2) {
+  background: var(--color-Five);
+}
+.conten_18 :nth-last-child(3) {
+  background: var(--color-Five);
+}
+/* Nivel 19 */
+.conten_19,
+.conten_20 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 75px;
+}
+.conten_19 :nth-last-child(n) {
+  background: var(--color-Five);
+}
+.conten_19 :nth-last-child(17n + 1) {
+  background: var(--color-One);
+}
+.conten_19 :nth-last-child(6n + 10) {
+  background: var(--color-One);
+}
+.conten_19 :nth-last-child(6n + 11) {
+  background: var(--color-One);
+}
+.conten_19 :nth-last-child(6n + 9) {
+  background: var(--color-Six);
+}
+.conten_19 :nth-last-child(6n + 8) {
+  background: var(--color-Six);
+}
+.conten_19 :nth-child(6) {
+  background: var(--color-TFour);
+}
+.conten_19 :nth-child(7) {
+  background: var(--color-TFour);
+}
+/* Nivel 20 */
+.conten_20 :nth-last-child(n) {
+  background: var(--color-Five);
+}
+.conten_20 :nth-last-child(17n + 1) {
+  background: var(--color-One);
+}
+.conten_20 :nth-last-child(7n + 10) {
+  background: var(--color-One);
+}
+.conten_20 :nth-last-child(7n + 9) {
+  background: var(--color-Six);
+}
+.conten_20 :nth-child(4) {
+  background: var(--color-Six);
+}
+.conten_20 :nth-child(5) {
+  background: var(--color-TFour);
+}
+.conten_20 :nth-child(6) {
+  background: var(--color-TFour);
+}
+.conten_20 :nth-child(7) {
+  background: var(--color-TFour);
+}
+.conten_20 :nth-child(8) {
+  background: var(--color-TFour);
+}
+/* Nivel 21 */
+.conten_21 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 70px;
+}
+.conten_21 :nth-last-child(n) {
+  background: var(--color-Five);
+}
+.conten_21 :nth-last-child(18n + 1) {
+  background: var(--color-One);
+}
+.conten_21 :nth-last-child(6n + 10) {
+  background: var(--color-Six);
+}
+.conten_21 :nth-last-child(1n + 17) {
+  background: var(--color-One);
+}
+.conten_21 :nth-child(6) {
+  background: var(--color-TFour);
+}
+.conten_21 :nth-child(7) {
+  background: var(--color-TFour);
+}
+.conten_21 :nth-child(8) {
+  background: var(--color-TFour);
+}
+.conten_21 :nth-child(9) {
+  background: var(--color-TFour);
+}
+/* Nivel 22 */
+.conten_22 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 70px;
+}
+.conten_22 :nth-last-child(n) {
+  background: var(--color-Five);
+}
+.conten_22 :nth-last-child(18n + 1) {
+  background: var(--color-One);
+}
+.conten_22 :nth-child(7) {
+  background: var(--color-TFour);
+}
+.conten_22 :nth-child(8) {
+  background: var(--color-TFour);
+}
+.conten_22 :nth-child(9) {
+  background: var(--color-TFour);
+}
+.conten_22 :nth-child(10) {
+  background: var(--color-TFour);
+}
+.conten_22 :nth-child(4) {
+  background: var(--color-One);
+}
+.conten_22 :nth-child(5) {
+  background: var(--color-Six);
+}
+.conten_22 :nth-child(2) {
+  background: var(--color-Two);
+}
+.conten_22 :nth-child(3) {
+  background: var(--color-Two);
+}
+/* Nivel 23 */
+.conten_23 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 65px;
+}
+.conten_23 :nth-last-child(n) {
+  background: var(--color-Five);
+}
+.conten_23 :nth-last-child(17n + 1) {
+  background: var(--color-One);
+}
+.conten_23 :nth-last-child(13n + 2) {
+  background: var(--color-One);
+}
+.conten_23 :nth-child(2) {
+  background: var(--color-Two);
+}
+.conten_23 :nth-child(3) {
+  background: var(--color-Two);
+}
+.conten_23 :nth-child(8) {
+  background: var(--color-TFour);
+}
+.conten_23 :nth-child(9) {
+  background: var(--color-TFour);
+}
+.conten_23 :nth-child(10) {
+  background: var(--color-TFour);
+}
+.conten_23 :nth-last-child(4) {
+  background: var(--color-One);
+}
+/* Nivel 24 */
+.conten_24,
+.conten_25 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 70px;
+}
+.conten_24 :nth-last-child(n) {
+  background: var(--color-Five);
+}
+.conten_24 :nth-last-child(16n + 1) {
+  background: var(--color-One);
+}
+.conten_24 :nth-child(2) {
+  background: var(--color-Three);
+}
+.conten_24 :nth-child(3) {
+  background: var(--color-One);
+}
+/* Nivel 25 */
+.conten_25 :nth-last-child(n) {
+  background: var(--color-Five);
+}
+.conten_25 :nth-last-child(14n + 1) {
+  background: var(--color-One);
+}
+.conten_25 :nth-last-child(8n + 5) {
+  background: var(--color-One);
+}
+.conten_25 :nth-child(2) {
+  background: var(--color-One);
+}
+.conten_25 :nth-child(7) {
+  background: var(--color-TFour);
+}
+.conten_25 :nth-child(8) {
+  background: var(--color-TFour);
+}
+.conten_25 :nth-last-child(6) {
+  background: var(--color-TFour);
+}
+/* Nivel 26 */
+.conten_26 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 65px;
+}
+.conten_26 :nth-last-child(13n + 1) {
+  background: var(--color-One);
+}
+.conten_26 :nth-last-child(9n + 2) {
+  background: var(--color-One);
+}
+.conten_26 :nth-last-child(7n + 3) {
+  background: var(--color-One);
+}
+.conten_26 :nth-child(2) {
+  background: var(--color-Two);
+}
+.conten_26 :nth-child(3) {
+  background: var(--color-Two);
+}
+.conten_26 :nth-child(5n + 6) {
+  background: var(--color-TFour);
+}
+.conten_26 :nth-child(7) {
+  background: var(--color-TFour);
+}
+.conten_26 :nth-child(8) {
+  background: var(--color-TFour);
+}
+.conten_26 :nth-child(9) {
+  background: var(--color-TFour);
+}
+.conten_26 :nth-child(10) {
+  background: var(--color-TFour);
+}
+/* Nivel 27 */
+.conten_27 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 55px;
+}
+.conten_27 :nth-last-child(11n + 1) {
+  background: var(--color-One);
+}
+.conten_27 :nth-last-child(5n + 3) {
+  background: var(--color-One);
+}
+.conten_27 :nth-last-child(5) {
+  background: var(--color-One);
+}
+.conten_27 :nth-child(2) {
+  background: var(--color-Two);
+}
+.conten_27 :nth-child(3) {
+  background: var(--color-Three);
+}
+.conten_27 :nth-child(4) {
+  background: var(--color-Three);
+}
+.conten_27 :nth-child(5n + 6) {
+  background: var(--color-TFour);
+}
+.conten_27 :nth-child(7) {
+  background: var(--color-TFour);
+}
+.conten_27 :nth-child(9) {
+  background: var(--color-TFour);
+}
+/* Nivel 28 */
+.conten_28 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 60px;
+}
+.conten_28 :nth-last-child(10n + 1) {
+  background: var(--color-One);
+}
+.conten_28 :nth-last-child(7n + 3) {
+  background: var(--color-One);
+}
+.conten_28 :nth-last-child(4n + 5) {
+  background: var(--color-One);
+}
+.conten_28 :nth-child(4) {
+  background: var(--color-One);
+}
+.conten_28 :nth-child(5n + 5) {
+  background: var(--color-TFour);
+}
+.conten_28 :nth-child(6) {
+  background: var(--color-TFour);
+}
+.conten_28 :nth-child(8) {
+  background: var(--color-TFour);
+}
+/* Nivel 29 */
+.conten_29,
+.conten_30 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 75px;
+}
+.conten_29 :nth-last-child(7n + 1) {
+  background: var(--color-One);
+}
+.conten_29 :nth-last-child(5n + 2) {
+  background: var(--color-Five);
+}
+.conten_29 :nth-last-child(3n + 3) {
+  background: var(--color-TFour);
+}
+.conten_29 :nth-last-child(4) {
+  background: var(--color-TFour);
+}
+.conten_29 :nth-last-child(5) {
+  background: var(--color-TFour);
+}
+/* Nivel 30 */
+.conten_30 :nth-last-child(2n + 1) {
+  background: var(--color-One);
+}
+.conten_30 :nth-last-child(2n + 2) {
+  background: var(--color-Five);
+}
+.conten_30 :nth-child(1) {
+  background: var(--color-One);
+}
+/* Nivel 31 */
+.conten_31 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 80px;
+}
+.conten_31 :nth-last-child(n) {
+  background: var(--color-One);
+}
